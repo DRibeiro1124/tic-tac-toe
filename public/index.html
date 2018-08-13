@@ -7,27 +7,27 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Comfortaa|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="/screen.css">
   </head>
-  <body onload="startGame()">
-    <h1>Tic Tac Toe</h1>
-    <div id="message">Messages in here</div>
-    <table border="1">
-      <tr>
-        <td class="squares" onclick="nextMove(this)"></td>
-        <td class="squares" onclick="nextMove(this)"></td>
-        <td class="squares" onclick="nextMove(this)"></td>
-      </tr>
-      <tr>
-        <td class="squares" onclick="nextMove(this)"></td>
-        <td class="squares" onclick="nextMove(this)"></td>
-        <td class="squares" onclick="nextMove(this)"></td>
-      </tr>
-      <tr>
-        <td class="squares" onclick="nextMove(this)"></td>
-        <td class="squares" onclick="nextMove(this)"></td>
-        <td class="squares" onclick="nextMove(this)"></td>
-      </tr>
-    </table>
-   
+  <body>
+    <div id="game-board">
+      <div class="row1">
+        <div class="action-box1"></div>
+        <div class="action-box2"></div>
+        <div class="action-box3"></div>
+      </div>
+      <div class="row2">
+        <div class="action-box4"></div>
+        <div class="action-box5"></div>
+        <div class="action-box6"></div>
+      </div>
+      <div class="row3">
+        <div class="action-box7"></div>
+        <div class="action-box8"></div>
+        <div class="action-box9"></div>
+      </div> 
+      <div id="restart">
+        <button>Restart Game</button>
+      </div>
+    </div>
 
     <script src="/main.js" charset="utf-8"></script>
   </body>
