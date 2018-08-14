@@ -2,6 +2,13 @@ body {
   background-color: rgb(151, 6, 6);
   text-align: center;
 }
+
+#intro {
+  font-family: 'Comfortaa', cursive;
+  font-size: 50px;
+  color: gold;
+}
+
 /* Trying to align text to center...get some help */
 #game-board {
   /* border: 1px solid yellow; */
@@ -16,12 +23,13 @@ body {
   width: 120px;
   height: 100px;
   margin: 2px;
-  font-size: 55px;
+  font-size: 75px;
   border-top: none;
   border-left: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Comfortaa', cursive;
 }
 
 .action-box2 {
@@ -29,11 +37,12 @@ body {
   width: 120px;
   height: 100px;
   margin: 2px;
-  font-size: 55px;
+  font-size: 75px;
   border-top: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Comfortaa', cursive;
 }
 
 .action-box3 {
@@ -41,12 +50,13 @@ body {
   width: 120px;
   height: 100px;
   margin: 2px;
-  font-size: 55px;
+  font-size: 75px;
   border-top: none;
   border-right: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Comfortaa', cursive;
 }
 
 .action-box4 {
@@ -54,11 +64,12 @@ body {
   width: 120px;
   height: 100px;
   margin: 2px;
-  font-size: 55px;
+  font-size: 75px;
   border-left: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Comfortaa', cursive;
 }
 
 .action-box5 {
@@ -66,10 +77,11 @@ body {
   width: 120px;
   height: 100px;
   margin: 2px;
-  font-size: 55px;
+  font-size: 75px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Comfortaa', cursive;
 }
 
 .action-box6 {
@@ -77,11 +89,12 @@ body {
   width: 120px;
   height: 100px;
   margin: 2px;
-  font-size: 55px;
+  font-size: 75px;
   border-right: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Comfortaa', cursive;
 }
 
 .action-box7 {
@@ -89,12 +102,13 @@ body {
   width: 120px;
   height: 100px;
   margin: 2px;
-  font-size: 55px;
+  font-size: 75px;
   border-bottom: none;
   border-left: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Comfortaa', cursive;
 }
 
 .action-box8 {
@@ -102,11 +116,12 @@ body {
   width: 120px;
   height: 100px;
   margin: 2px;
-  font-size: 55px;
+  font-size: 75px;
   border-bottom: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Comfortaa', cursive;
 }
 
 .action-box9 {
@@ -114,12 +129,13 @@ body {
   width: 120px;
   height: 100px;
   margin: 2px;
-  font-size: 55px;
+  font-size: 75px;
   border-bottom: none;
   border-right: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Comfortaa', cursive;
 }
 
 .row1 {
@@ -142,8 +158,60 @@ button {
   width: 120px;
   margin-top: 25px;
   cursor: pointer;
+  font-size: 24px;
+  font-family: 'Amatic SC', cursive;
 }
 
-.action-box1 :hover {
+.action-box1:hover {
   background-color: yellow;
+}
+
+.action-box2:hover {
+  background-color: yellow;
+}
+
+.action-box3:hover {
+  background-color: yellow;
+}
+
+.action-box4:hover {
+  background-color: yellow;
+}
+
+.action-box5:hover {
+  background-color: yellow;
+}
+
+.action-box6:hover {
+  background-color: yellow;
+}
+
+.action-box7:hover {
+  background-color: yellow;
+}
+
+.action-box8:hover {
+  background-color: yellow;
+}
+
+.action-box9:hover {
+  background-color: yellow;
+}
+
+.playerScore {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.playerOne {
+  padding-right: 2em;
+  font-family: 'Amatic SC', cursive;
+  font-size: 45px;
+}
+
+.playerTwo {
+  padding-left: 2em;
+  font-family: 'Amatic SC', cursive;
+  font-size: 45px;
 }
